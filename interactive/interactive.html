@@ -2,7 +2,7 @@
 <html>
     <head>
         <script src="https://unpkg.com/stein-js-client"></script>
-        <script src="runtime.js"></script>
+       
         <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
         <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
         <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-detector.js"></script>
@@ -52,11 +52,14 @@
                 cursor="fuse: false; rayOrigin: mouse;"
                 id="markerA"
             >
-                <a-text value="Hello, World!" rotation="-90 0 0" color="red"></a-text>
-                <a-plane scale="1 1 1" rotation="-90 0 0"></a-plane>
+                <a-text class="text-pis" value="Hello, World!"></a-text>
+                <a-text class="text-orta" value="Hello, World!"></a-text>
+                <a-text class="text-ela" value="Hello, World!"></a-text>
+                
             </a-marker>
 
             <a-entity camera></a-entity>
         </a-scene>
+        <script src="runtime.js"></script>
     </body>
 </html>
