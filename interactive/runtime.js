@@ -15,3 +15,7 @@ const store = new SteinStore(
     elat.setAttribute("value" , '"Əla" rəyi verənlər:'+ ela)
 
   });
+
+  function open(){
+     window.open("/form/form.html", "_self")
+  }
