@@ -10,9 +10,9 @@ const store = new SteinStore(
     var orta = data[0].orta;
     var ela = data[0].ela;
 
-    pist.setAttribute("value" , '"Pis" rəyi verənlər:'+ pis)
-    ortat.setAttribute("value" , '"Orta" rəyi verənlər:'+ orta)
-    elat.setAttribute("value" , '"Əla" rəyi verənlər:'+ ela)
+    pist.setAttribute("value" , 'pis: '+ pis)
+    ortat.setAttribute("value" , 'orta: '+ orta)
+    elat.setAttribute("value" , 'ela: '+ ela)
 
   });
 
