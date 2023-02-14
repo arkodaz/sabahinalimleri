@@ -17,5 +17,5 @@ const store = new SteinStore(
   });
 
   function open(){
-     window.open("/form/form.html", "_self")
+     window.open("https://arkodaz.netlify.com/interactive/form/form.html", "_self")
   }
